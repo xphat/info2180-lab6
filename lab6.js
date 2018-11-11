@@ -5,7 +5,6 @@ window.onload = function()
     searchbutton.addEventListener("click", function()
     {
         var srchtxt = document.querySelector("#txtbx").value;
-        console.log(srchtxt);
         getDef(srchtxt);
     }
     ,false);
